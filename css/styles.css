@@ -692,3 +692,128 @@ footer{
     grid-template-columns:repeat(3, 1fr);
     gap:25px;
 }
+
+/* DETALLE DE PRODUCTO */
+
+.product-detail{
+    padding: 50px 0 0;
+}
+
+.product-layout{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    align-items: center;
+}
+
+.product-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.product-gallery img{
+    width: 100%;
+    max-height: 380px;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,.08);
+}
+
+.product-info h1{
+    color: var(--primary);
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+.product-status{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.product-price{
+    color: var(--accent);
+    font-size: 42px;
+    margin-bottom: 25px;
+}
+
+.product-specs{
+    margin-bottom: 20px;
+}
+
+.product-specs p{
+    margin-bottom: 12px;
+}
+
+.add-cart-btn{
+    background: var(--accent);
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    width: 280px;
+}
+
+/* DESCRIPCIÓN DEL PRODUCTO: CHAQUETA*/
+
+.product-description{
+    padding: 0 0 50px;
+}
+
+.product-description h2{
+    color: var(--primary);
+    margin-bottom: 20px;
+    font-size: 32px;
+}
+
+.product-description p{
+    background: var(--white);
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0,0,0,.08);
+    line-height: 1.8;
+}
+
+/* IMPACTO DE LA COMPRA */
+
+.purchase-impact{
+    padding: 70px 0;
+}
+
+.purchase-impact h2{
+    text-align: center;
+    color: var(--primary);
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.impact-benefits{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.benefit-card{
+    background: white;
+    padding: 30px;
+    border-radius: 16px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,.08);
+}
+
+.benefit-icon{
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+
+.benefit-card h3{
+    color: var(--primary);
+    margin-bottom: 10px;
+}
+
+.benefit-card p{
+    color: var(--secondary);
+}
