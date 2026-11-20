@@ -1,0 +1,103 @@
+/* RESET */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* VARIABLES */
+
+:root{
+    --primary: #538A95;
+    --accent: #E4491C;
+    --secondary: #566981;
+    --background: #F6F7F9;
+    --white: #FFFFFF;
+    --dark: #333333;
+}
+
+/* ESTILOS GENERALES */
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--background);
+    color: var(--dark);
+    line-height: 1.6;
+}
+
+/* CONTENEDOR GENERAL */
+
+.container{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* HEADER */
+
+header{
+    background: var(--white);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.logo{
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--primary);
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+nav a{
+    text-decoration: none;
+    color: var(--secondary);
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+nav a:hover{
+    color: var(--accent);
+}
+
+.actions{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.actions input{
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    outline: none;
+}
+
+.cart-btn{
+    background: var(--accent);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.cart-btn:hover{
+    opacity: 0.9;
+}
