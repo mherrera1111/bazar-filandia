@@ -462,3 +462,95 @@ nav a:hover{
     font-size: 16px;
     font-weight: 600;
 }
+
+/* VOLUNTARIADO */
+
+.volunteer-section{
+    padding: 80px 0;
+    text-align: center;
+}
+
+.volunteer-section h2{
+    color: var(--primary);
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.volunteer-text{
+    max-width: 700px;
+    margin: 0 auto 40px;
+    color: var(--secondary);
+}
+
+.volunteer-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    margin-bottom: 40px;
+}
+
+.volunteer-card{
+    background: white;
+    padding: 30px 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,.08);
+    transition: .3s;
+}
+
+.volunteer-card:hover{
+    transform: translateY(-5px);
+}
+
+.volunteer-icon{
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+.volunteer-card h3{
+    color: var(--primary);
+    font-size: 18px;
+}
+
+.volunteer-btn{
+    background: var(--accent);
+    color: white;
+    border: none;
+    padding: 14px 30px;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* QUIÉNES SOMOS */
+
+.about-home{
+    padding: 100px 0;
+    text-align: center;
+    background: var(--white);
+}
+
+.about-home h2{
+    color: var(--primary);
+    font-size: 36px;
+    margin-bottom: 25px;
+}
+
+.about-home p{
+    max-width: 850px;
+    margin: 0 auto 35px;
+    color: var(--secondary);
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+.about-btn{
+    background: var(--primary);
+    color: white;
+    border: none;
+    padding: 14px 30px;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+}
