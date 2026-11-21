@@ -1332,4 +1332,189 @@ footer{
     color: var(--primary);
     margin-bottom: 40px;
 }
+
+/* NOSOTROS */
+
+.about-hero{
+    padding: 80px 0;
+    text-align: center;
+    background: linear-gradient(
+        135deg,
+        var(--primary),
+        var(--secondary)
+    );
+    color: white;
+}
+
+.about-hero h1{
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.about-hero p{
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.history-section{
+    padding: 70px 0;
+}
+
+.history-section h2{
+    text-align: center;
+    color: var(--primary);
+    margin-bottom: 30px;
+}
+
+.history-card{
+    background: white;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0,0,0,.08);
+}
+
+.mission-vision{
+    padding-bottom: 70px;
+}
+
+.mv-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+}
+
+.mv-card{
+    background: white;
+    padding: 35px;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0,0,0,.08);
+}
+
+.mv-card h2{
+    color: var(--primary);
+    margin-bottom: 15px;
+}
+
+.values-section{
+    padding-bottom: 80px;
+}
+
+.values-section h2{
+    text-align: center;
+    color: var(--primary);
+    margin-bottom: 40px;
+}
+
+.values-grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 25px;
+}
+
+.value-card{
+    background: white;
+    padding: 30px;
+    border-radius: 16px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,.08);
+}
+
+.value-card span{
+    font-size: 42px;
+    display: block;
+    margin-bottom: 15px;
+}
+
+/* IMPACTO NOSOTROS */
+
+.about-impact{
+    padding-bottom: 70px;
+}
+
+.about-impact h2{
+    text-align: center;
+    color: var(--primary);
+    margin-bottom: 40px;
+}
+
+/* PROCESO */
+
+.impact-process{
+    padding-bottom: 70px;
+}
+
+.impact-process h2{
+    text-align: center;
+    color: var(--primary);
+    margin-bottom: 40px;
+}
+
+.process-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.process-step{
+    background: white;
+    padding: 25px;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0,0,0,.08);
+    text-align: center;
+    font-size: 30px;
+}
+
+.process-step p{
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.process-arrow{
+    font-size: 30px;
+    color: var(--accent);
+}
+
+/* ECONOMÍA CIRCULAR */
+
+.circular-economy{
+    padding-bottom: 70px;
+}
+
+.circular-economy h2{
+    text-align: center;
+    color: var(--primary);
+    margin-bottom: 30px;
+}
+
+.economy-card{
+    background: white;
+    padding: 35px;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0,0,0,.08);
+    text-align: center;
+}
+
+/* CTA NOSOTROS */
+
+.about-cta{
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.about-cta h2{
+    color: var(--primary);
+    margin-bottom: 20px;
+}
+
+.about-cta p{
+    max-width: 800px;
+    margin: 0 auto 30px;
+}
+
+.about-buttons{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
     
