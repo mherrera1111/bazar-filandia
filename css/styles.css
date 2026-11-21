@@ -712,12 +712,32 @@ footer{
     justify-content: space-between;
 }
 
-.product-gallery img{
+.main-image{
     width: 100%;
     max-height: 380px;
     object-fit: cover;
     border-radius: 20px;
     box-shadow: 0 4px 12px rgba(0,0,0,.08);
+}
+
+.thumbnail-gallery{
+    display: flex;
+    gap: 12px;
+    margin-top: 15px;
+}
+
+.thumbnail-gallery img{
+    width: 110px;
+    height: 110px;
+    object-fit: cover;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: .3s;
+}
+
+.thumbnail-gallery img:hover{
+    border-color: var(--accent);
 }
 
 .product-info h1{
@@ -780,7 +800,7 @@ footer{
 /* IMPACTO DE LA COMPRA */
 
 .purchase-impact{
-    padding: 70px 0;
+    padding: 40px 0 70px;
 }
 
 .purchase-impact h2{
