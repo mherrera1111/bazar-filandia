@@ -837,3 +837,226 @@ footer{
 .benefit-card p{
     color: var(--secondary);
 }
+
+/* PRODUCTOS RELACIONADOS */
+
+.related-products{
+    padding: 60px 0 100px;
+}
+
+.related-products h2{
+    text-align: center;
+    color: var(--primary);
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+/* CARRITO DE COMPRAS */
+
+.cart-section{
+    padding: 60px 0;
+}
+
+.cart-section h1{
+    color: var(--primary);
+    margin-bottom: 10px;
+}
+
+.cart-subtitle{
+    color: var(--secondary);
+    margin-bottom: 30px;
+}
+
+/* Layout principal */
+
+.cart-layout{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 40px;
+    align-items: start;
+}
+
+/* Producto */
+
+.cart-item{
+    background: white;
+    border-radius: 16px;
+    padding: 25px;
+    display: grid;
+    grid-template-columns: 130px 1fr auto;
+    gap: 25px;
+    align-items: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,.08);
+}
+
+/* Imagen */
+
+.cart-item img{
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 12px;
+    display: block;
+}
+
+/* Información */
+
+.cart-item-info h3{
+    color: var(--primary);
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+.cart-item-info p{
+    margin-bottom: 8px;
+}
+
+/* Cantidad */
+
+.quantity-controls{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.quantity-controls button{
+    width: 35px;
+    height: 35px;
+    border: none;
+    border-radius: 8px;
+    background: var(--primary);
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+/* Total producto */
+
+.cart-item-total{
+    text-align: right;
+}
+
+.cart-item-total p{
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--accent);
+    margin-bottom: 10px;
+}
+
+.remove-btn{
+    border: none;
+    background: transparent;
+    color: #d32f2f;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+/* Resumen */
+
+.cart-summary{
+    background: white;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0,0,0,.08);
+    position: sticky;
+    top: 120px;
+}
+
+.cart-summary h2{
+    color: var(--primary);
+    margin-bottom: 20px;
+}
+
+.cart-summary p{
+    margin-bottom: 12px;
+}
+
+.donation-option{
+    display: block;
+    margin: 20px 0;
+}
+
+.cart-summary h3{
+    color: var(--accent);
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+.checkout-btn{
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 12px;
+    background: var(--accent);
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.checkout-btn:hover{
+    opacity: .9;
+}
+
+/* COMPRA EXITOSA */
+
+.success-section{
+    padding: 100px 0;
+}
+
+.success-card{
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,.08);
+    text-align: center;
+}
+
+.success-icon{
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+
+.success-card h1{
+    color: var(--primary);
+    margin-bottom: 20px;
+}
+
+.success-message{
+    color: var(--secondary);
+    margin-bottom: 40px;
+}
+
+.success-impact{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.success-item{
+    background: var(--background);
+    padding: 25px;
+    border-radius: 12px;
+}
+
+.success-item span{
+    font-size: 40px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.success-btn{
+    background: var(--accent);
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+}
+    
