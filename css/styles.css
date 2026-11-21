@@ -1723,4 +1723,92 @@ footer{
 .report-card p{
     margin-bottom: 15px;
 }
+
+/* PASARELA DE PAGO */
+
+.payment-section{
+    padding: 80px 0;
+}
+
+.payment-section h1{
+    text-align: center;
+    color: var(--primary);
+    margin-bottom: 10px;
+}
+
+.payment-subtitle{
+    text-align: center;
+    margin-bottom: 40px;
+    color: var(--secondary);
+}
+
+.payment-layout{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 40px;
+}
+
+.payment-form-card,
+.payment-summary{
+    background: white;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0,0,0,.08);
+}
+
+.payment-form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.payment-form input,
+.payment-form select{
+    padding: 14px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-family: inherit;
+}
+
+.payment-row{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.payment-note{
+    font-size: 14px;
+    color: var(--secondary);
+}
+
+.pay-btn{
+    display: block;
+    text-align: center;
+    background: var(--accent);
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 12px;
+    font-weight: 600;
+}
+
+.payment-summary h2{
+    color: var(--primary);
+    margin-bottom: 20px;
+}
+
+.payment-summary p{
+    margin-bottom: 12px;
+}
+
+.payment-summary hr{
+    margin: 20px 0;
+}
+
+.payment-total{
+    margin-top: 15px;
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--accent);
+}
     
