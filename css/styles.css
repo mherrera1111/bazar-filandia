@@ -1887,4 +1887,35 @@ footer{
     text-align: center;
     padding-bottom: 100px;
 }
+
+/* DONACIÓN EXITOSA */
+
+.donation-success-section{
+    padding: 100px 0;
+}
+
+.donation-steps{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.donation-btn{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* VOLUNTARIADO EXITOSO */
+
+.volunteer-success-section{
+    padding: 100px 0;
+}
+
+.volunteer-btn-form{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
     
